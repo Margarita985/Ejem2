@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header{
+    background-color: darksalmon;
+    color: coral;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background-color: indianred;
+
+}
+
+nav li{
+    margin: 0 15px;
+
+}
+nav a{
+    color: maroon;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover{
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+
+}
+.tarjeta{
+    background-color: brown;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 2px;
+    border-radius: 5px;
+
+}
+
+.footer{
+    background-color: indianred;
+    color: black;
+
+}
